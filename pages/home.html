@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand navbar-light">
+            <div class="container-fluid">
+              <div class="row w-100">
+                  <div class="col-6 btnmenu">
+                    <button type="button" class="btn btn-outline ps-0">
+                        <img src="../assets/images/Menu.svg" alt="">
+                    </button>
+                  </div>
+                  <div class="col-6 collapse navbar-collapse text-end" id="navbarSupportedContent">
+                    <div class="recherche">
+                        <button type="button" class="btn btn-outline">
+                            <img src="../assets/images/recherche.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="notification">
+                        <button type="button" class="btn btn-outline">
+                            <img src="../assets/images/bloc_ notification.svg" alt="">
+                        </button>
+                    </div>
+                    <div class="user">
+                        <img src="../assets/images/user/profil_charif.svg" class="rounded float-start" alt="...">
+                        <img src="../assets/images/bouton_modification_profil.svg" class="rounded float-start editPP" alt="...">
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </nav>
+          <div class="container-fluid">
+              <span class="hello">Bonjour, <span>Khadim</span></span>
+          </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="row m-auto mt-5 r-sect">
+            <div class="col-6">
+                <h2>Service</h2>
+            </div>
+            <div class="col-6 text-end">
+                <div class="row r-sect">
+                    <div class="col-12 r-bp">
+                        <div class="bonPlan">Bon plan</div>
+                        <div class="nbre px-3 ms-2">5</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 pt-4 service">
+                <img src="../assets/images/services/handshake 1.svg" class="imgService" alt="...">
+                <p class="my-3 libelle">Courtage</p>
+            </div>
+            <div class="col-3 pt-4 service">
+                <img src="../assets/images/services/velo-de-livraison 1.svg" class="imgService" alt="...">
+                <p class="my-3 libelle">Livreur</p>
+            </div>
+            <div class="col-3 pt-4 service">
+                <img src="../assets/images/services/investissement 1.svg" class="imgService" alt="...">
+                <p class="my-3 libelle">Immobilier</p>
+            </div>
+        </div>
+
+        <div class="row m-auto mt-5 r-sect">
+            <div class="col-12 podcats">
+                <img src="../assets/images/podcatsSecteurs/Vector.svg" class="imgService" alt="...">
+                <div class="dot"></div>
+                <div class="libPodcats">Podcats par secteurs</div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2 text-center secteur s_1 mx-auto mt-5 px-0">
+                <div class="opac">
+                    <p>Histoire</p>
+                </div>
+            </div>
+            <div class="col-2 text-center secteur s_2 mx-auto mt-5 px-0" onclick="redirect('./agriculture.html')">
+                <div class="opac">
+                    <p>Agriculture</p>
+                </div>
+            </div>
+            <div class="col-2 text-center secteur s_3 mx-auto mt-5 px-0">
+                <div class="opac">
+                    <p>Education</p>
+                </div>
+            </div>
+            <div class="col-2 text-center secteur s_4 mx-auto mt-5 px-0">
+                <div class="opac">
+                    <p>Education</p>
+                </div>
+            </div>
+        </div>
+        <div class="row r-sect mt-4 mb-3">
+            <div class="col-6">
+                <div class="row r-sect mx-auto">
+                    <div class="secteurimgSelect">
+                        <img src="../assets/images/podcatsSecteurs/image3.svg" alt="">
+                    </div>
+                    <div class="col lebSect">
+                        <div class="secteurlibelSelect me-1">Culture</div>
+                        <div class="dot mb-0"></div>
+                        <div class="secteurtypeSelect ms-1">secteur</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 text-end">
+                <button type="button" class="btn btn-outline allSeeBtn">
+                    Tout voir <img src="../assets/images/next.svg" alt="">
+                </button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6 mx-auto">
+                <div class="card r-card">
+                    <img src="../assets/images/image_campagnes.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title r-card-title">Tissu wax</h5>
+                      <h6 class="card-subtitle r-card-subtitle mb-2 text-muted">Code de Famille</h6>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                      <div class="row">
+                          <div class="col-12 mt-2 mb-4">
+                              <div class="row r-sect">
+                                  <div class="user card-pp">
+                                     <img src="../assets/images/user/profil_charif.svg" class="rounded float-start" alt="...">
+                                  </div>
+                                  <div class="col comment">
+                                    <p class="mb-0">M. Amina</p> 
+                                    <p class="mb-0">Fall</p> 
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12">
+                              <div class="row r-sect">
+                                  <div class="col-12 card-comment">
+                                    <img src="../assets/images/comment.svg" alt="..." class="me-1">
+                                    <span class="cmnb">25</span>
+                                    <img src="../assets/images/star.svg" alt="..." class="ms-4 me-1">
+                                    <span class="cmnb">4.9/5</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12 mt-3 mb-1">
+                              <div class="row r-sect">
+                                  <div class="col-12 card-wallet mx-auto text-end">
+                                    <img src="../assets/images/wallet.svg" alt="..." class="me-2">
+                                    <span class="me-3">8000 XOF</span>
+                                    <button type="button" class="btn">
+                                        <img src="../assets/images/nextWhite.svg" alt="">
+                                    </button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-6 mx-auto">
+                <div class="card r-card">
+                    <img src="../assets/images/image_campagnes.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title r-card-title">Tissu wax</h5>
+                      <h6 class="card-subtitle r-card-subtitle mb-2 text-muted">Code de Famille</h6>
+                      <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+                      <div class="row">
+                          <div class="col-12 mt-2 mb-4">
+                              <div class="row r-sect">
+                                  <div class="user card-pp">
+                                     <img src="../assets/images/user/profil_charif.svg" class="rounded float-start" alt="...">
+                                  </div>
+                                  <div class="col comment">
+                                    <p class="mb-0">M. Amina</p> 
+                                    <p class="mb-0">Fall</p> 
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12">
+                              <div class="row r-sect">
+                                  <div class="col-12 card-comment">
+                                    <img src="../assets/images/comment.svg" alt="..." class="me-1">
+                                    <span class="cmnb">25</span>
+                                    <img src="../assets/images/star.svg" alt="..." class="ms-4 me-1">
+                                    <span class="cmnb">4.9/5</span>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-12 mt-3 mb-1">
+                              <div class="row r-sect">
+                                  <div class="col-12 card-wallet mx-auto text-end">
+                                    <img src="../assets/images/wallet.svg" alt="..." class="me-2">
+                                    <span class="me-3">8000 XOF</span>
+                                    <button type="button" class="btn">
+                                        <img src="../assets/images/nextWhite.svg" alt="">
+                                    </button>
+                                  </div>
+                              </div>
+                          </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/index.js"></script>
+</body>
+</html>

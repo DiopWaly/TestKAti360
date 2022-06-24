@@ -1,0 +1,215 @@
+body{
+    background-color: #F6F6F6;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.btnmenu button img{
+    width: 35px;
+}
+.user{
+    border-radius: 100%;
+}
+.editPP{
+    position: absolute;
+    right: 9px;
+    top: 32px;
+    width: 87px;
+}
+.notification{
+    /* margin-left: auto; */
+}
+.recherche button img{
+    width: 35px;
+}
+.notification button img{
+    width: 35px;
+}
+.recherche{
+    margin-left: auto;
+}
+.hello{
+    color: #4BC313;
+    font-size: 23px;
+}
+.hello span{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+}
+.service{
+    background: #fff;
+    /* height: 129px; */
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 30px;
+    min-width: 163px;
+    text-align: center;
+}
+.imgService{
+    margin: auto;
+    width: 40px;
+    margin-right: 5px;
+}
+.service .libelle{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 45px;
+}
+/* .bonPlan, .nbre{
+    display: inline-block;
+} */
+.bonPlan{
+    color: #4BC313;
+}
+.nbre{
+    background-color: #fff;
+    border-radius: 11px;
+    height: 50px;
+    padding-top: 9px;
+}
+.r-bp{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 22px;
+}
+.podcats img,div,h2{
+    display: inline-block;
+}
+.dot{
+    background-color: #4BC313;
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+}
+.libPodcats{
+    font-style: normal;
+    font-weight: 600;  
+    margin-left: 5px;
+    font-size: 22px;
+}
+.s_1{
+    background: url('../images/podcatsSecteurs/image1.svg');
+}
+.s_2{
+    background: url('../images/podcatsSecteurs/image2.svg');
+}
+.s_3{
+    background: url('../images/podcatsSecteurs/image3.svg');
+}
+.s_4{
+    background: url('../images/podcatsSecteurs/image3.svg');
+}
+.secteur{
+    background-size: cover;
+    /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.81) 18.98%, rgba(0, 0, 0, 0) 110.89%); */
+    height: 173px;
+    border-radius: 20px;
+    min-width: 150px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 14px;
+}
+.opac{
+    width: 100%;
+    height: 173px;
+    margin: 0;
+    padding: 0;
+    padding-top: 133px;
+    background: linear-gradient(358deg, rgb(0 0 0 / 62%) 10%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 20px;
+}
+.r-sect{
+    flex-direction: row;
+    align-items: center;
+}
+.secteurimgSelect{
+    /* background-image: url('../images/podcatsSecteurs/image3.svg'); */
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    padding: 0;
+}
+.secteurimgSelect img{
+    width: 100%;
+    height: 100%;
+}
+.allSeeBtn{
+    color: #4BC313;
+    border: 1.5px solid #4BC313;
+    border-radius: 33px;
+    font-size: 18px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+}
+.allSeeBtn img{
+    width: 11px;
+    margin-left: 10px;
+}
+.lebSect{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+}
+.secteurtypeSelect{
+    color: #4BC313;
+}
+.r-card{
+    border-radius: 45px;
+}
+.card-pp{
+    width: 85px;
+}
+.comment{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+}
+.r-card-title{
+    color: #7E899D;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    line-height: 19px;
+}
+.r-card-subtitle{
+    color: #7E899D; 
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+.card-comment img{
+    width: 30px;
+}
+.card-comment {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    display: flex;
+}
+.card-wallet{
+    color: #4BC313;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.card-wallet img{
+    width: 25px;
+}
+.card-wallet button{
+    background: #4BC313;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+}
+.card-wallet button img{
+    width: 11px;
+}

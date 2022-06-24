@@ -1,0 +1,385 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #F6F6F6;
+}
+.body{
+  background: #FFF;  
+  width: 100%;
+}
+.btnprec button{
+    background: #FFF;
+    border-radius: 15px;
+    height: 60px;
+    width: 60px;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 14%);
+}
+.nbchois{
+    color: #4BC313;
+    font-weight: bold;
+}
+.libPodcatsdo{
+    font-size: 25px;
+}
+.btnprec button img{
+    width: 43px;
+}
+.titleHead{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 31px;
+    letter-spacing: -0.015em;
+}
+.btnprec img{
+    width: 122px;
+}
+.rechercheA button img{
+    width: 50px;
+}
+.userA{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.userA .pp{
+    width: 100%;    
+}
+.editPPA{
+    position: absolute;
+    right: 15px;
+    top: 48px;
+    width: 67px;
+}
+.radioCheck{
+    border: 1.5px solid #4BC313;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    box-shadow: 0px 1px 3px;
+}
+.action{
+    height: 85px;
+    background: rgba(126, 137, 157, 0.5);;
+    width: 100%;
+    border-radius: 70px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFF;
+}
+.action1{
+    height: 70px;
+    background: rgba(126, 137, 157, 0.5);;
+    width: 100%;
+    border-radius: 70px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #FFF;
+}
+.action img{
+    height: 42px;
+}
+.explication .info{
+    width: 32px;
+}
+.explication .icinf{
+    width: 35px;
+}
+.explication span{
+    color: #7E899D;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+#range1{
+    width: 75px;
+}
+.service1{
+    border: 1px solid #4BC313;
+    background: rgba(75, 195, 19, 0.1);
+    color: #4BC313;
+    font-weight: 900;
+    margin: 0;
+}
+.service2{
+    background: #FFFFFF;
+    border: 1px solid #7E899D;
+    color: #7E899D;
+    font-weight: 900;
+    margin: 0;
+    height: 145px;
+}
+.service1 .libelle{
+    font-size: 30px;
+} 
+.service2 .libelle{
+    font-size: 65px;
+} 
+.doSell{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #000000;
+    letter-spacing: -0.015em;
+}
+.doSell img{
+    width: 60px;
+    margin-right: 8px;
+}
+.libPodcats{
+    font-weight: 400;
+    font-size: 26px;
+    margin-left: 0;
+}
+.imgService2{
+    margin: auto;
+    width: 160px;
+    margin-right: 0;
+}
+.r-cat{
+    min-height: 295px;
+}
+.r-cat p{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 63px;
+    letter-spacing: -0.015em;
+    display: flex;
+    align-items: end;
+}
+.rechprod button{
+    background: #4BC313;
+    height: 60px;
+    width: 62px;
+    border-radius: 16px;
+}
+.rechprod button img{
+    width: 40px;
+}
+/* Modal */
+.modal.show .modal-dialog {
+    transform: none;
+    width: 100%;
+    transition: transform 300ms ease 0s;
+    transform: translate(0%, 60vh);
+    border-radius: 15px;
+}
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 100%;
+        margin: 1.75rem auto;
+    }
+}
+.modal.fade .modal-dialog {
+    transform: translate3d(0, 75vh, 0);
+  }
+  
+  .modal.in .modal-dialog {
+    transform: translate3d(0, 0, 0);
+  }
+  .modal-content{
+    border-radius: 30px 30px 0 0;
+  }
+  /* input */
+  .form{
+    position: relative;
+    /* // width: 20rem; */
+    /* // height: 3rem; */
+    margin-bottom: 1rem;
+    /* // margin-bottom: 0; */
+    height: 70px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .form__input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* // border: 2px solid $clr-gray300; */
+    border: 1px solid rgb(126 137 157 / 88%);
+    border-radius: 2.5rem;
+    font-family: inherit;
+    font-size: 24px;
+    color: #000000;
+    outline: none;
+    padding: 1.25rem;
+    padding-right: 4.8rem;
+    background: none;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: -0.015em;
+  }
+  .form__input .form:hover{
+    /* // border-color: $clr-primary-light; */
+    border-color: #214583;
+  }
+  .form__input .form:focus{
+    /* // border-color: $clr-primary; */
+    border-color: #204481 !important;
+    border: 2px solid #204481 !important;;
+  }
+  .form__select{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* // border: 2px solid $clr-gray300; */
+    border: 1px solid #204481 !important;
+    border-radius: 0.5rem;
+    font-family: inherit;
+    font-size: inherit;
+    color: #214583;
+    outline: none;
+    /* // padding: 1.25rem; */
+    padding-left: 3.3rem;
+    background: none;
+}
+.form__select .form:hover{
+  /* // border-color: $clr-primary-light; */
+  border-color: #204481;
+}
+.form__select .form:focus{
+  /* // border-color: $clr-primary; */
+  border-color: #204481;
+  border: 2px solid #204481;
+}
+  
+  .form__label{
+    position: absolute;
+    /* // left: 1rem; */
+    left: 3rem;
+    /* // top: 0.8rem; */
+    top: 1.1rem;
+    padding: 0 0.5rem;
+    color: #214583;
+    cursor: text;
+    transition: top 200ms ease-in,
+      left 200ms ease-in,
+      font-size 200ms ease-in;
+    /* // background-color: $clr-bg; */
+    background-color: white;
+  }
+  .form__icon{
+    width: 50px;
+    color: #204481 !important;
+    position: absolute;
+    top: 26px;
+    right: 54px;
+  }
+  .form__iconKG{
+    width: 37px;
+    color: #204481 !important;
+    position: absolute;
+    top: 24px;
+    right: 57px;
+  }
+  .form__iconArrow{
+    width: 27px;
+    position: absolute;
+    top: 22px;
+    right: 19px;
+  }
+  .form__icon-psw{
+    font-size: 25px;
+    color: #204481 !important;
+    position: absolute;
+    top: 15px;
+    right: 11px;
+  }
+  .form__separator{
+    border-right: 2.5px solid #4BC313;
+    height: 48px;
+    position: absolute;
+    right: 111px;
+    top: 10px;
+  }
+  /* input */
+
+  .form__input:focus ~ .form__label, 
+    .form__input:not(:placeholder-shown).form__input:not(:focus)~.form__label{
+    top: -0.5rem;
+    font-size: 0.8rem;
+    /* left: 0.8rem; */
+    left: 3rem;
+  }
+  .form__select:focus ~ .form__label, 
+    .form__select:not(:placeholder-shown).form__select:not(:focus)~.form__label{
+    top: -0.5rem;
+    font-size: 0.8rem;
+    left: 3rem;
+  }
+  input[type=number]:focus {
+    border: 1px solid #4BC313;
+  }
+
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.btnprecModal button {
+    background: #FFF;
+    border-radius: 13px;
+    height: 55px;
+    width: 55px;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 14%);
+}
+.btnprecModal button img {
+    width: 40px;
+}
+.btnSelectModalDate button {
+    background: #FFF;
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+    /* box-shadow: 0 1px 6px rgb(0 0 0 / 14%); */
+}
+.btnSelectModalDate button img {
+    width: 30px;
+    /* box-shadow: 0 1px 6px rgb(0 0 0 / 14%); */
+}
+.btnprecModal .typeProd{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 26px;
+    color: #4BC313;
+    letter-spacing: -0.015em;
+}
+.btnSelectModalDate .dateDispo{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #000;
+    letter-spacing: -0.015em;
+}
+
+/*  */
+#radioCheck div{
+    background: #4BC313;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    margin-right: 5px;
+    margin-top: 6px;
+}

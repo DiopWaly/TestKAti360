@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agriculture</title>
+    <link rel="stylesheet" href="../assets/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/agriculture.css">
+</head>
+<body>
+    <div class="body">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand navbar-light py-4">
+                <div class="container-fluid">
+                  <div class="row w-100 r-sect">
+                      <div class="col-8 btnprec">
+                        <button type="button" class="btn btn-outline p-0" onclick="redirect('./home.html')">
+                            <img src="../assets/images/icone_retour.svg" alt="">
+                        </button>
+                        <img src="../assets/images/logo SHEP 1.svg" alt="" class="pe-2">
+                        <div class="titleHead ms-2"><span>Agriculture</span></div>
+                      </div>
+                      <div class="col-4 collapse navbar-collapse text-end" id="navbarSupportedContent">
+                        <div class="recherche rechercheA">
+                            <button type="button" class="btn btn-outline">
+                                <img src="../assets/images/recherche profil.svg" alt="">
+                            </button>
+                        </div>
+                        <div class="user userA">
+                            <img src="../assets/images/user/profil_charif.svg" class="rounded float-start pp" alt="...">
+                            <img src="../assets/images/bouton_modification_profil.svg" class="rounded float-start editPPA" alt="...">
+                        </div>
+                      </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row m-auto mt-5 r-sect">
+            <div class="col-12 explication">
+                <img src="../assets/images/Info.svg" alt="..." class="info">
+                <span>Clique ici</span>
+                <img src="../assets/images/Record voice over.svg" alt="..." class="icinf">
+                <div>
+                    <input id="range1" name="range1" type="range" min="0" max="9" value="5">
+                </div>
+                <span>pour avoir plus d’explication</span>
+            </div>
+        </div>
+        <div class="row m-auto mt-5 r-sect">
+            <div class="col-12 podcats">
+                <img src="../assets/images/Location on.svg" class="imgService" alt="...">
+                <span class="col libPodcats">
+                    Cochez un ou plusieurs régions de votre choix <span class="nbchois">(<span id="nbchois">0</span>)</span>
+                </span>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 pt-4 service text-start" onclick="selected('agriculture')">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck" id="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+            <div class="col-3 pt-4 service text-start">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+            <div class="col-3 pt-4 service text-start">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 pt-4 service text-start">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+            <div class="col-3 pt-4 service text-start">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+            <div class="col-3 pt-4 service text-start">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 pt-4 service text-start">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+            <div class="col-3 pt-4 service text-start">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+            <div class="col-3 pt-4 service text-start">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-3 pt-4 service text-start">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+            <div class="col-3 pt-4 service text-start">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+            <div class="col-3 pt-4 service text-start">
+                <div class="row">
+                    <div class="col-6">
+                        <img src="../assets/images/Location on2.svg" class="imgService" alt="...">
+                    </div>
+                    <div class="col-6 text-end pe-4">
+                        <div class="radioCheck">
+                        </div>
+                    </div>
+                    <p class="my-3 libelle">Courtage</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row m-auto mt-5 r-sect">
+            <div class="col-12 podcats mb-3">
+                <div class="libPodcats libPodcatsdo">Que souhaitez-vous faire</div>
+            </div>
+            <div class="col-12">
+                <div class="row">
+                    <div class="col-4">
+                        <button type="button" class="btn action" onclick="redirect('./operation.html')">
+                            Acheter
+                            <img src="../assets/images/control_point.svg" alt="" class="ms-2">
+                        </button>
+                    </div>
+                    <div class="col-4">
+                        <button type="button" class="btn action">
+                            Vendre
+                            <img src="../assets/images/control_point.svg" alt="" class="ms-2">
+                        </button>
+                    </div>
+                    <div class="col-4">
+                        <button type="button" class="btn action">
+                            Service
+                            <img src="../assets/images/control_point.svg" alt="" class="ms-2">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/agriculture.js"></script>
+    <script src="../assets/js/index.js"></script>
+</body>
+</html>

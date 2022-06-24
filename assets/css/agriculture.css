@@ -1,0 +1,95 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #F6F6F6;
+}
+.body{
+  background: #FFF;  
+  width: 100%;
+}
+.btnprec button{
+    background: #FFF;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 1px 6px rgb(0 0 0 / 14%);
+}
+.nbchois{
+    color: #4BC313;
+    font-weight: bold;
+}
+.libPodcatsdo{
+    font-size: 25px;
+}
+.btnprec button img{
+    width: 43px;
+}
+.titleHead{
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 21px;
+}
+.btnprec img{
+    width: 83px;
+}
+.rechercheA button img{
+    width: 50px;
+}
+.userA{
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+.userA .pp{
+    width: 100%;    
+}
+.editPPA{
+    position: absolute;
+    right: 15px;
+    top: 48px;
+    width: 67px;
+}
+.radioCheck{
+    border: 1px solid #212529;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+}
+.action{
+    height: 66px;
+    background: rgba(126, 137, 157, 0.5);;
+    width: 100%;
+    border-radius: 30px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFF;
+}
+.action img{
+    height: 42px;
+}
+.explication .info{
+    width: 32px;
+}
+.explication .icinf{
+    width: 35px;
+}
+.explication span{
+    color: #7E899D;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+}
+#range1{
+    width: 75px;
+}
+#radioCheck div{
+    background: #4BC313;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-right: 4px;
+    margin-top: 4px;
+}
